@@ -1,0 +1,32 @@
+name: Placeholder Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-placeholders:
+    runs-on: ubuntu-latest
+    name: No unreplaced placeholders on main
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for unreplaced placeholders
+        run: |
+          # Find [ALL_CAPS_PLACEHOLDER] patterns in Markdown files.
+          # CONTRIBUTING.md is excluded because it deliberately shows placeholder syntax in examples.
+          FOUND=$(grep -rn '\[[A-Z][A-Z _-]\{2,\}\]' --include="*.md" \
+            --exclude="CONTRIBUTING.md" \
+            . || true)
+
+          if [ -n "$FOUND" ]; then
+            echo "ERROR: Found unreplaced placeholders in Markdown files:"
+            echo "$FOUND"
+            echo ""
+            echo "Replace all [PLACEHOLDER] tokens before merging to main."
+            exit 1
+          else
+            echo "No unreplaced placeholders found."
+          fi

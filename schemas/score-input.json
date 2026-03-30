@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hackathon Score Input",
+  "description": "Schema for the CSV rows consumed by scripts/score_calc.py. Each object represents one judge's scores for one team.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["team_name", "judge_name", "technical", "innovation", "impact", "presentation"],
+    "additionalProperties": true,
+    "properties": {
+      "team_name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the team being scored"
+      },
+      "judge_name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Name of the judge submitting scores"
+      },
+      "technical": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Technical achievement score (0–10). Required field — do not remove."
+      },
+      "innovation": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Innovation / creativity score (0–10). Required field — do not remove."
+      },
+      "impact": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Impact / usefulness score (0–10). Customizable — can be renamed or removed if rubric is updated."
+      },
+      "presentation": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Presentation quality score (0–10). Customizable — can be renamed or removed if rubric is updated."
+      }
+    }
+  },
+  "minItems": 1
+}

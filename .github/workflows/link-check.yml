@@ -1,0 +1,23 @@
+name: Link Check
+
+on:
+  schedule:
+    # Run daily at 9am UTC — not on every push (external HTTP is slow and flaky)
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # allow manual runs
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    name: Check for broken links
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run markdown link check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'no'
+          config-file: '.github/mlc-config.json'
+          folder-path: '.'
+          file-extension: '.md'
