@@ -1,0 +1,72 @@
+site_name: Hackathon Organizer Guide — Equity Edition
+site_description: A complete hackathon operations toolkit for first-time organizers at schools without existing infrastructure, budget, or sponsor networks.
+site_url: https://kireetcheri.github.io/mlh-hackathon-organizer-guide-addon/
+repo_url: https://github.com/kireetcheri/mlh-hackathon-organizer-guide-addon
+repo_name: kireetcheri/mlh-hackathon-organizer-guide-addon
+
+docs_dir: _docs_processed
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Introduction: README.md
+  - Equity Pack:
+    - Overview: equity-pack/README.md
+    - Zero-Budget Guide: equity-pack/zero-budget/README.md
+    - Grant Sources: equity-pack/zero-budget/grant-sources.md
+    - HackClub Bank: equity-pack/zero-budget/hackclub-bank.md
+    - Getting School Approval: Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md
+    - Sponsor Outreach:
+      - Cold-Start Outreach: equity-pack/sponsors/cold-start-outreach.md
+      - Finding Sponsors via Devpost: equity-pack/sponsors/devpost-sponsor-mining.md
+    - Judging Rubric: equity-pack/judging/rubric.md
+    - Score Calculator: scripts/README.md
+  - General Information:
+    - Hackathon Timeline: general-information/hackathon-timeline.md
+    - Finding the Date and Purpose: general-information/finding-the-date-and-purpose.md
+    - Locking Down a Venue: general-information/locking-down-a-venue.md
+    - Getting Sponsorship:
+      - Overview: general-information/getting-sponsorship/README.md
+      - Introduction to Fundraising: general-information/getting-sponsorship/introduction-to-fundraising.md
+      - Sponsorship Prospectus: general-information/getting-sponsorship/sponsorship-prospectus.md
+      - 5-Step Sponsorship Process: general-information/getting-sponsorship/the-5-step-mlh-sponsorship-process.md
+      - Emailing Sponsors: general-information/getting-sponsorship/cheat-sheet-emailing-your-sponsors.md
+    - Hackathon Website: general-information/hackathon-website/README.md
+    - Marketing Your Event: general-information/marketing-your-event/README.md
+    - Managing Registrations: general-information/managing-registrations/README.md
+    - Event Logistics: general-information/event-logistics/README.md
+    - Judging and Submissions:
+      - Overview: general-information/judging-and-submissions/README.md
+      - Judging Plan: general-information/judging-and-submissions/judging-plan.md
+      - Judges Communication: general-information/judging-and-submissions/judges-communication-and-recruiting.md
+      - Rules: general-information/judging-and-submissions/rules-for-your-hackathon.md
+      - Cheating Check: general-information/judging-and-submissions/cheating-check.md
+      - Using Devpost: general-information/judging-and-submissions/hackathon-submission-portal/using-devpost.md
+      - Using Devfolio: general-information/judging-and-submissions/hackathon-submission-portal/using-devfolio.md
+    - Hackathon Scheduling: general-information/hackathon-scheduling/README.md
+    - Mentorship: general-information/mentorship.md
+    - After the Event: general-information/after-the-event.md
+  - Organizer Resources:
+    - Template Links: Organizer-Resources/template-links.md
+    - Software for Hackathons: Organizer-Resources/software-for-hackathons.md
+    - Marketing Resources: Organizer-Resources/marketing-resources/README.md
+    - Leadership Resources: Organizer-Resources/leadership-resources/README.md
+    - Keeping Records: Organizer-Resources/keeping-records.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences

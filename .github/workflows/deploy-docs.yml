@@ -14,20 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '20'
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material
+
+      - name: Preprocess GitBook syntax
+        run: python3 scripts/preprocess_docs.py . _docs_processed
 
       - name: Build docs
-        run: npm run build
+        run: mkdocs build --strict
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_book
+          publish_dir: ./site
           force_orphan: true
