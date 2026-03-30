@@ -1,30 +1,58 @@
+# Hackathon Organizer Guide — Equity Edition
+
+**A complete hackathon operations toolkit for first-time organizers, built on the [MLH Hackathon Organizer Guide](https://github.com/MLH/mlh-hackathon-organizer-guide) (CC BY 4.0).**
+
+Most hackathon guides assume you already have a venue, a budget, and a network of judges and sponsors. This one doesn’t.
+
+This fork adds an **equity pack** — resources specifically for schools running their first hackathon with no institutional support, no existing sponsor relationships, and no budget from the school.
+
 ---
-description: The MLH Hackathon Organizer Guide
+
+## What’s in here
+
+### Equity Pack (what this fork adds)
+
+| Resource | What it solves |
+|----------|---------------|
+| [Zero-Budget Guide](equity-pack/zero-budget/README.md) | Run a hackathon with $0 from your school |
+| [Grant Sources](equity-pack/zero-budget/grant-sources.md) | HackClub Bank, MLH, GitHub Education, Google DSC, and more |
+| [HackClub Bank](equity-pack/zero-budget/hackclub-bank.md) | Fastest path to $500 + fiscal sponsorship |
+| [Getting School Approval](Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md) | Pitch email, objection handling, faculty advisor guide |
+| [Cold-Start Sponsor Outreach](equity-pack/sponsors/cold-start-outreach.md) | Finding sponsors when you know nobody |
+| [Judging Rubric](equity-pack/judging/rubric.md) | Scored rubric with required vs. customizable fields |
+| [Score Calculator](scripts/README.md) | Python script for aggregating judge scores (no dependencies) |
+
+### MLH Organizer Guide (original content)
+
+Everything from MLH’s guide is preserved: event logistics, marketing, sponsorship frameworks, judging process, venue, scheduling, and more. See the [full table of contents](SUMMARY.md).
+
 ---
 
-# Introduction
+## Start here if you’re new
 
-#### Welcome to the MLH Hackathon Organizer Guide! This is a community initiative by [Major League Hacking](https://mlh.io) that contains a lot of the lessons that we and the hackathon community around the world have learned from organizing hackathons — all in a single student hackathon playbook.
+1. **Get admin approval first** → [Working with School Administration](Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md)
+2. **Apply for HackClub Bank** → [HackClub Bank Guide](equity-pack/zero-budget/hackclub-bank.md) (do this early — takes 1–2 weeks)
+3. **Find your first sponsor** → [Cold-Start Outreach](equity-pack/sponsors/cold-start-outreach.md)
+4. **Plan the event** → [Hackathon Timeline](general-information/hackathon-timeline.md)
+5. **Set up judging** → [Judging Rubric](equity-pack/judging/rubric.md) + [MLH Judging Plan](general-information/judging-and-submissions/judging-plan.md)
 
-Take a look and learn some of the practices used by hackathon organizers all around the world. This guide should contain most, if not all, of the practices you need to throw a great hackathon.
+---
 
-**Disclaimer:** The hackathon organizer guide is never finished. It's an ongoing project that we're always trying to update as we and the global hackathon organizer community learn. Try everything, and feel free to contribute your learnings back to the guide with a pull request over on [our GitHub repository for this guide](https://github.com/mlh/hackathon-organizer-guide).
+## Did you use this toolkit?
 
-## Introduction to Organizer Guide
+[Open an issue](https://github.com/kireetcheri/mlh-hackathon-organizer-guide-addon/issues/new?template=used-this-toolkit.md) to tell us about your event. It helps future organizers know this works.
 
-> "I learned more in one weekend than I did in the last month of lectures!"
+---
 
-Are you ready to host your school’s very own hackathon?
+## Contributing
 
-[Each semester, more than 65,000 developers, designers, and makers compete for their school's glory at the 200+ official MLH hackathons around the world.](https://mlh.io/about) Whether you’re hosting your first or third MLH hackathon, our organizer guide will give you the tools to blow away your student hacker community.
+Improvements welcome — especially from organizers who’ve run events at under-resourced schools. See [CONTRIBUTING.md](CONTRIBUTING.md) if it exists, or open an issue to discuss.
 
-Major League Hacking's [mission is to empower hackers](https://mlh.io/about). This guide helps us support organizers in their pursuit to throw incredible hackathons and empower hackers to build great hacks.
+---
 
-### Code of Conduct
+## License and Attribution
 
-We enforce a Code of Conduct for all maintainers and contributors of this Guide. Read more in [CONDUCT.md](https://github.com/yashovardhan/mlh-hackathon-organizer-guide/tree/e1f777578c8c5c905dcebc5b506c1f93f4c613b4/CONDUCT.md).
+Original guide by [Major League Hacking](https://mlh.io), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Equity pack additions by [kireetcheri](https://github.com/kireetcheri). See [ATTRIBUTION.md](ATTRIBUTION.md) for full details.
 
-### License
-
-The Hackathon Organizer Guide is open sourced under the [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. [Read more here](https://github.com/yashovardhan/mlh-hackathon-organizer-guide/tree/e1f777578c8c5c905dcebc5b506c1f93f4c613b4/LICENSE.md).
+Code (scripts, schemas) is licensed under MIT.
 
