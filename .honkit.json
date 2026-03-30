@@ -1,0 +1,12 @@
+{
+  "title": "Hackathon Organizer Guide — Equity Edition",
+  "description": "A complete hackathon operations toolkit for first-time organizers at schools without existing infrastructure, budget, or sponsor networks.",
+  "author": "kireetcheri, Major League Hacking (original)",
+  "language": "en",
+  "gitbook": "3.x.x",
+  "root": ".",
+  "styles": {
+    "website": "assets/stylesheets/custom.css"
+  },
+  "plugins": ["-sharing", "-fontsettings", "-highlight"]
+}

@@ -1,6 +1,5 @@
 _book/
 node_modules/
-
-.DS_Storescripts/__pycache__/
-tests/__pycache__/
 *.pyc
+__pycache__/
+.DS_Store
