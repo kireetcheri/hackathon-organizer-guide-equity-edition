@@ -1,12 +1,8 @@
 {
-  "plugins": ["ga"],
-  "pluginsConfig": {
-    "ga": { "token": "UA-43729070-1" }
-  },
+  "plugins": ["-sharing", "-fontsettings", "-highlight"],
   "styles": { "website": "assets/stylesheets/custom.css" },
-  "layout": { "footerPath" : "layouts/footer.html" },
   "introduction": {
-        "path": "introduction.md",
-        "title": "Introduction"
-    }
+    "path": "README.md",
+    "title": "Introduction"
+  }
 }
