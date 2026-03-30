@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 _docs_processed/
 site/
+package-lock.json

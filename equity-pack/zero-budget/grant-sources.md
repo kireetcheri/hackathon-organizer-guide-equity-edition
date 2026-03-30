@@ -32,10 +32,10 @@ These programs specifically fund student-run hackathons or tech events. Listed i
 
 ## Tier 2: Apply 6–8 weeks out
 
-### Google for Startups / Developer Student Clubs
+### Google Developer Student Clubs (GDSC)
 - **Amount:** $500–$2,000 in Google Cloud credits + event support
-- **Who qualifies:** Schools with an active Google Developer Student Club (GDSC); if you don't have one, starting one unlocks this
-- **Apply:** [developers.google.com/community/dsc](https://developers.google.com/community/dsc)
+- **Who qualifies:** Schools with an active GDSC chapter; if you don't have one, starting one unlocks this
+- **Apply:** [developers.google.com/community/gdsc](https://developers.google.com/community/gdsc)
 
 ### AWS Educate / AWS Community Events
 - **Amount:** AWS credits + sometimes direct event support
