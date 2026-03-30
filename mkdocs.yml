@@ -30,6 +30,10 @@ nav:
     - Sponsor Outreach:
       - Cold-Start Outreach: equity-pack/sponsors/cold-start-outreach.md
       - Finding Sponsors via Devpost: equity-pack/sponsors/devpost-sponsor-mining.md
+    - Planning:
+      - 8-Week Checklist: equity-pack/planning/8-week-checklist.md
+      - Day-of Runsheet: equity-pack/planning/day-of-runsheet.md
+    - Participant Recruitment: equity-pack/recruitment/README.md
     - Judging Rubric: equity-pack/judging/rubric.md
     - Score Calculator: scripts/README.md
   - General Information:
