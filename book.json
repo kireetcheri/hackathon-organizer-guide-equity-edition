@@ -1,0 +1,8 @@
+{
+  "plugins": ["-sharing", "-fontsettings", "-highlight"],
+  "styles": { "website": "assets/stylesheets/custom.css" },
+  "introduction": {
+    "path": "README.md",
+    "title": "Introduction"
+  }
+}
