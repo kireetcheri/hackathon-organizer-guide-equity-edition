@@ -17,7 +17,7 @@ This fork adds an **equity pack** — resources specifically for schools running
 | [Zero-Budget Guide](equity-pack/zero-budget/README.md) | Run a hackathon with $0 from your school |
 | [Grant Sources](equity-pack/zero-budget/grant-sources.md) | HackClub Bank, MLH, GitHub Education, Google DSC, and more |
 | [HackClub Bank](equity-pack/zero-budget/hackclub-bank.md) | Fastest path to $500 + fiscal sponsorship |
-| [Getting School Approval](Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md) | Pitch email, objection handling, faculty advisor guide |
+| [Getting School Approval](organizer-resources/getting-support-from-others/working-with-organisations-and-school-administration.md) | Pitch email, objection handling, faculty advisor guide |
 | [Cold-Start Sponsor Outreach](equity-pack/sponsors/cold-start-outreach.md) | Finding sponsors when you know nobody |
 | [Judging Rubric](equity-pack/judging/rubric.md) | Scored rubric with required vs. customizable fields |
 | [Score Calculator](scripts/README.md) | Python script for aggregating judge scores (no dependencies) |
@@ -30,7 +30,7 @@ Everything from MLH’s guide is preserved: event logistics, marketing, sponsors
 
 ## Start here if you’re new
 
-1. **Get admin approval first** → [Working with School Administration](Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md)
+1. **Get admin approval first** → [Working with School Administration](organizer-resources/getting-support-from-others/working-with-organisations-and-school-administration.md)
 2. **Apply for HackClub Bank** → [HackClub Bank Guide](equity-pack/zero-budget/hackclub-bank.md) (do this early — takes 1–2 weeks)
 3. **Find your first sponsor** → [Cold-Start Outreach](equity-pack/sponsors/cold-start-outreach.md)
 4. **Plan the event** → [Hackathon Timeline](general-information/hackathon-timeline.md)

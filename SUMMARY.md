@@ -8,7 +8,7 @@
 * [Zero-Budget Guide](equity-pack/zero-budget/README.md)
   * [Grant Sources](equity-pack/zero-budget/grant-sources.md)
   * [HackClub Bank](equity-pack/zero-budget/hackclub-bank.md)
-* [Getting School Approval](Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md)
+* [Getting School Approval](organizer-resources/getting-support-from-others/working-with-organisations-and-school-administration.md)
 * [Sponsor Outreach](equity-pack/sponsors/cold-start-outreach.md)
   * [Finding Sponsors via Devpost](equity-pack/sponsors/devpost-sponsor-mining.md)
 * [Judging Rubric](equity-pack/judging/rubric.md)
