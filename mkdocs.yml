@@ -26,7 +26,7 @@ nav:
     - Zero-Budget Guide: equity-pack/zero-budget/README.md
     - Grant Sources: equity-pack/zero-budget/grant-sources.md
     - HackClub Bank: equity-pack/zero-budget/hackclub-bank.md
-    - Getting School Approval: Organizer-Resources/getting-support-from-others/working-with-organisations-and-school-administration.md
+    - Getting School Approval: organizer-resources/getting-support-from-others/working-with-organisations-and-school-administration.md
     - Sponsor Outreach:
       - Cold-Start Outreach: equity-pack/sponsors/cold-start-outreach.md
       - Finding Sponsors via Devpost: equity-pack/sponsors/devpost-sponsor-mining.md
@@ -62,11 +62,11 @@ nav:
     - Mentorship: general-information/mentorship.md
     - After the Event: general-information/after-the-event.md
   - Organizer Resources:
-    - Template Links: Organizer-Resources/template-links.md
-    - Software for Hackathons: Organizer-Resources/software-for-hackathons.md
-    - Marketing Resources: Organizer-Resources/marketing-resources/README.md
-    - Leadership Resources: Organizer-Resources/leadership-resources/README.md
-    - Keeping Records: Organizer-Resources/keeping-records.md
+    - Template Links: organizer-resources/template-links.md
+    - Software for Hackathons: organizer-resources/software-for-hackathons.md
+    - Marketing Resources: organizer-resources/marketing-resources/README.md
+    - Leadership Resources: organizer-resources/leadership-resources/README.md
+    - Keeping Records: organizer-resources/keeping-records.md
 
 markdown_extensions:
   - tables
